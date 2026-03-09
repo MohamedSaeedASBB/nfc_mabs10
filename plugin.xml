@@ -68,24 +68,18 @@
             <array>
                 <string>NDEF</string>
                 <string>TAG</string>
-                <string>iso7816</string>
             </array>
         </config-file>
         <config-file parent="com.apple.developer.nfc.readersession.formats" platform="ios" target="*-Release.plist">
             <array>
                 <string>NDEF</string>
                 <string>TAG</string>
-                <string>iso7816</string>
             </array>
         </config-file>
-        <config-file parent="com.apple.developer.nfc.readersession.iso7816.select-identifiers" platform="ios" target="*-Debug.plist">
+        <config-file target="*-Info.plist" parent="com.apple.developer.nfc.readersession.iso7816.select-identifiers">
             <array>
                 <string>A0000002471001</string>
-            </array>
-        </config-file>
-        <config-file parent="com.apple.developer.nfc.readersession.iso7816.select-identifiers" platform="ios" target="*-Release.plist">
-            <array>
-                <string>A0000002471001</string>
+                <string>A0000002472001</string>
             </array>
         </config-file>
 
